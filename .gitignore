@@ -1,5 +1,26 @@
-.DS_Store
-__pycache__
+# Fetched and built by the setup scripts (see README)
+project-sources/
+build-info/
 
-project-sources
-build-info
+# Python
+__pycache__/
+
+# Local environment. `.env.example` is the committed template; the real file never is.
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI tools
+.claude/settings.local.json
+.playwright-mcp/
